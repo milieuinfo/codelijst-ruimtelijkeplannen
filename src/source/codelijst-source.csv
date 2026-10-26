@@ -1,0 +1,4 @@
+_id,_type,topConceptOf,inScheme,prefLabel,altLabel,notation,definition,scopeNote,broader,exactMatch,closeMatch,seeAlso
+,,,,,,,,,,,,
+conceptscheme:ruimtelijkeplannen,skos:ConceptScheme,,,conceptschema ruimtelijkeplannen,,,TODO: definitie van het conceptschema ruimtelijkeplannen.,,,,,
+voorbeeld,skos:Concept,conceptscheme:ruimtelijkeplannen,conceptscheme:ruimtelijkeplannen,voorbeeldconcept,,voorbeeld,TODO: voorbeeldconcept; vervang door de eigenlijke concepten.,,,,,

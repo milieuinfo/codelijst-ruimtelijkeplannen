@@ -1,0 +1,26 @@
+[
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "TODO: voorbeeldconcept; vervang door de eigenlijke concepten.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen",
+        "code": "voorbeeld",
+        "note": "TODO: voorbeeldconcept; vervang door de eigenlijke concepten.",
+        "prefLabel": "voorbeeldconcept",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "definition": "TODO: definitie van het conceptschema ruimtelijkeplannen.",
+        "hasTopConcept": [
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld"
+        ],
+        "note": "TODO: definitie van het conceptschema ruimtelijkeplannen.",
+        "prefLabel": "conceptschema ruimtelijkeplannen"
+    }
+]

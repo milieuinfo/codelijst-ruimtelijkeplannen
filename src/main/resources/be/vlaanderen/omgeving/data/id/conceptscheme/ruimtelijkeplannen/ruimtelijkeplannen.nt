@@ -1,0 +1,12 @@
+<https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld> <http://www.w3.org/2004/02/skos/core#definition> "TODO: voorbeeldconcept; vervang door de eigenlijke concepten."@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen> .
+<https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld> <http://www.w3.org/2004/02/skos/core#notation> "voorbeeld" .
+<https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld> <http://www.w3.org/2004/02/skos/core#note> "TODO: voorbeeldconcept; vervang door de eigenlijke concepten."@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld> <http://www.w3.org/2004/02/skos/core#prefLabel> "voorbeeldconcept"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen> <http://www.w3.org/2004/02/skos/core#definition> "TODO: definitie van het conceptschema ruimtelijkeplannen."@nl .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld> .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen> <http://www.w3.org/2004/02/skos/core#note> "TODO: definitie van het conceptschema ruimtelijkeplannen."@nl .
+<https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen> <http://www.w3.org/2004/02/skos/core#prefLabel> "conceptschema ruimtelijkeplannen"@nl .
