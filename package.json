@@ -9,6 +9,11 @@
     "create_skos": "cd src && node 01_codelijst_skos_from_csv.js",
     "create_metadata": "cd src && node 02_metadata.js"
   },
+  "pnpm": {
+    "overrides": {
+      "xlsx": "0.18.5"
+    }
+  },
   "keywords": [
     "milieuinfo",
     "linked data",
