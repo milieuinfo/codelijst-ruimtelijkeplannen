@@ -9,14 +9,14 @@
   <packaging>jar</packaging>
   <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
   <artifactId>codelijst-ruimtelijkeplannen</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>codelijst-ruimtelijkeplannen</name>
   <description />
   <scm>
     <connection>scm:git:https://github.com/milieuinfo/codelijst-ruimtelijkeplannen.git</connection>
     <developerConnection>scm:git:https://github.com/milieuinfo/codelijst-ruimtelijkeplannen.git</developerConnection>
     <url>https://github.com/milieuinfo/codelijst-ruimtelijkeplannen.git</url>
-    <tag>codelijst-ruimtelijkeplannen-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <build>
     <plugins>
