@@ -1,28 +1,10 @@
 {
-  "about": {
-    "@id": "https://schema.org/about",
-    "@type": "@id"
-  },
   "accessRights": {
     "@id": "http://purl.org/dc/terms/accessRights",
     "@type": "@id"
   },
   "accessURL": {
     "@id": "http://www.w3.org/ns/dcat#accessURL",
-    "@type": "@id"
-  },
-  "achternaam": {
-    "@id": "http://www.w3.org/2006/vcard/ns#family-name"
-  },
-  "actedOnBehalfOf": {
-    "@id": "http://www.w3.org/ns/prov#actedOnBehalfOf",
-    "@type": "@id"
-  },
-  "adres": {
-    "@id": "http://www.w3.org/ns/locn#address"
-  },
-  "alternatieveId": {
-    "@id": "http://www.w3.org/ns/adms#identifier",
     "@type": "@id"
   },
   "alternative": {
@@ -33,29 +15,9 @@
     "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
     "@language": "nl"
   },
-  "applicableUnit": {
-    "@id": "http://qudt.org/schema/qudt/applicableUnit",
-    "@type": "@id"
-  },
-  "asWKT": {
-    "@id": "http://www.opengis.net/ont/geosparql#asWKT",
-    "@type": "http://www.opengis.net/ont/geosparql#wktLiteral"
-  },
   "availableGraphs": {
     "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
     "@type": "@id"
-  },
-  "bedrijfsklasse": {
-    "@id": "https://data.vlaanderen.be/ns/omgevingsvergunning#juridischeKwalificatie",
-    "@type": "@id"
-  },
-  "belongsTo": {
-    "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
-    "@type": "@id"
-  },
-  "boolean_value": {
-    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-    "@type": "http://www.w3.org/2001/XMLSchema#boolean"
   },
   "broader": {
     "@id": "http://www.w3.org/2004/02/skos/core#broader",
@@ -69,9 +31,6 @@
     "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
     "@type": "@id"
   },
-  "casNumber": {
-    "@id": "http://dbpedia.org/ontology/casNumber"
-  },
   "closeMatch": {
     "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
     "@type": "@id"
@@ -79,28 +38,9 @@
   "code": {
     "@id": "http://www.w3.org/2004/02/skos/core#notation"
   },
-  "collections": {
-    "@type": "@id",
-    "@reverse": "member"
-  },
-  "comment": {
-    "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
-    "@language": "nl"
-  },
-  "compressFormat": {
-    "@id": "http://www.w3.org/ns/dcat#compressFormat",
-    "@type": "@id"
-  },
-  "conformsTo": {
-    "@id": "http://purl.org/dc/terms/conformsTo",
-    "@type": "@id"
-  },
   "contact": {
     "@id": "http://www.w3.org/ns/dcat#contactPoint",
     "@type": "@id"
-  },
-  "contactLabel": {
-    "@id": "http://www.w3.org/2006/vcard/ns#fn"
   },
   "contactPoint": {
     "@id": "http://www.w3.org/ns/dcat#contactPoint",
@@ -110,35 +50,10 @@
     "@id": "http://www.w3.org/ns/dcat#dataset",
     "@type": "@id"
   },
-  "dateAccepted": {
-    "@id": "http://purl.org/dc/terms/dateAccepted",
-    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-  },
-  "datum": {
-    "@id": "http://purl.org/dc/terms/date",
-    "@type": "http://www.w3.org/2001/XMLSchema#date"
-  },
-  "dc_identifier": {
-    "@id": "http://purl.org/dc/elements/1.1/identifier"
-  },
-  "dc_language": {
-    "@id": "http://purl.org/dc/elements/1.1/language",
-    "@language": "nl"
-  },
-  "dc_source": {
-    "@id": "http://purl.org/dc/elements/1.1/source"
-  },
-  "dct_language": {
-    "@id": "http://purl.org/dc/terms/language",
-    "@type": "@id"
-  },
   "dct_type": {
     "@id": "http://purl.org/dc/terms/type",
     "@type": "@id",
     "@container": "@set"
-  },
-  "dc_type": {
-    "@id": "http://purl.org/dc/elements/1.1/type"
   },
   "defaultDataset": {
     "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
@@ -168,14 +83,6 @@
     "@id": "http://www.w3.org/ns/dcat#downloadURL",
     "@type": "@id"
   },
-  "eenheid": {
-    "@id": "http://qudt.org/schema/qudt/unit",
-    "@type": "@id"
-  },
-  "email": {
-    "@id": "http://www.w3.org/2006/vcard/ns#hasEmail",
-    "@type": "@id"
-  },
   "endpointDescription": {
     "@id": "http://www.w3.org/ns/dcat#endpointDescription",
     "@type": "@id"
@@ -192,10 +99,6 @@
     "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
     "@type": "@id"
   },
-  "exploitant": {
-    "@id": "https://data.vlaanderen.be/ns/omgevingsvergunning#verantwoordelijke",
-    "@type": "@id"
-  },
   "feature": {
     "@id": "http://www.w3.org/ns/sparql-service-description#feature",
     "@type": "@id"
@@ -204,46 +107,8 @@
     "@id": "http://purl.org/dc/terms/format",
     "@type": "@id"
   },
-  "forProperty": {
-    "@id": "http://www.w3.org/ns/ssn/forProperty",
-    "@type": "@id"
-  },
-  "gemeentecode": {
-    "@id": "http://purl.org/dc/terms/coverage",
-    "@type": "@id"
-  },
-  "gemeente": {
-    "@id": "http://www.w3.org/ns/locn#postName"
-  },
-  "geolocatie": {
-    "@id": "http://www.w3.org/ns/locn#geometry"
-  },
   "graph": {
     "@id": "@graph"
-  },
-  "hasFeatureOfInterest": {
-    "@id": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
-    "@type": "@id"
-  },
-  "hasGeometry": {
-    "@id": "http://www.opengis.net/ont/geosparql#hasGeometry",
-    "@type": "@id"
-  },
-  "hasOperatingProperty": {
-    "@id": "http://www.w3.org/ns/ssn/systems/hasOperatingProperty",
-    "@type": "@id"
-  },
-  "hasOperatingRange": {
-    "@id": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
-    "@type": "@id"
-  },
-  "hasProperty": {
-    "@id": "http://www.w3.org/ns/ssn/hasProperty",
-    "@type": "@id"
-  },
-  "hasResult": {
-    "@id": "http://www.w3.org/ns/sosa/hasResult",
-    "@type": "@id"
   },
   "hasTopConcept": {
     "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
@@ -252,14 +117,6 @@
   },
   "hasVersion": {
     "@id": "http://purl.org/dc/terms/hasVersion",
-    "@type": "@id"
-  },
-  "homepage": {
-    "@id": "http://xmlns.com/foaf/0.1/homepage",
-    "@type": "@id"
-  },
-  "hoofdvestiging": {
-    "@id": "http://www.w3.org/ns/org#hasRegisteredSite",
     "@type": "@id"
   },
   "identifier": {
@@ -282,20 +139,8 @@
     "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
     "@type": "@id"
   },
-  "integer_value": {
-    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-    "@type": "http://www.w3.org/2001/XMLSchema#integer"
-  },
-  "inXSDDateTime": {
-    "@id": "http://www.w3.org/2006/time#inXSDDateTime",
-    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-  },
   "isDeelVan": {
     "@id": "http://purl.org/dc/terms/isPartOf",
-    "@type": "@id"
-  },
-  "isPropertyOf": {
-    "@id": "http://www.w3.org/ns/ssn/isPropertyOf",
     "@type": "@id"
   },
   "isReferencedBy": {
@@ -310,22 +155,14 @@
     "@id": "http://purl.org/dc/terms/isVersionOf",
     "@type": "@id"
   },
-  "kwalitatieve_waarde": {
-    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-    "@type": "@id"
-  },
   "label": {
     "@id": "http://www.w3.org/2000/01/rdf-schema#label",
     "@language": "nl"
-  },
-  "land": {
-    "@id": "http://www.w3.org/ns/locn#adminUnitL1"
   },
   "landingPage": {
     "@id": "http://www.w3.org/ns/dcat#landingPage",
     "@type": "@id"
   },
-  "language": "http://publications.europa.eu/resource/authority/language/",
   "accrualPeriodicity": {
     "@id": "http://purl.org/dc/terms/accrualPeriodicity",
     "@type": "@id"
@@ -334,24 +171,9 @@
     "@id": "http://purl.org/dc/terms/license",
     "@type": "@id"
   },
-  "lokaleId": {
-    "@id": "http://purl.org/dc/elements/1.1/identifier"
-  },
-  "locatie": {
-    "@id": "http://www.w3.org/ns/locn#location",
-    "@type": "@id"
-  },
-  "madeBySensor": {
-    "@id": "http://www.w3.org/ns/sosa/madeBySensor",
-    "@type": "@id"
-  },
   "mappingRelation": {
     "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
     "@type": "@id"
-  },
-  "maxValue": {
-    "@id": "https://schema.org/maxValue",
-    "@type": "http://www.w3.org/2001/XMLSchema#decimal"
   },
   "mediaType": {
     "@id": "http://www.w3.org/ns/dcat#mediaType",
@@ -360,13 +182,6 @@
   "member": {
     "@id": "http://www.w3.org/2004/02/skos/core#member",
     "@type": "@id"
-  },
-  "minValue": {
-    "@id": "https://schema.org/minValue",
-    "@type": "http://www.w3.org/2001/XMLSchema#decimal"
-  },
-  "naam": {
-    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel"
   },
   "namedGraph": {
     "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
@@ -397,43 +212,12 @@
     "@id": "http://www.w3.org/2004/02/skos/core#note",
     "@language": "nl"
   },
-  "numerieke_waarde": {
-    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-    "@type": "http://www.w3.org/2001/XMLSchema#decimal"
-  },
-  "nummer": {
-    "@id": "http://www.w3.org/ns/locn#locatorDesignator"
-  },
-  "observedProperty": {
-    "@id": "http://www.w3.org/ns/sosa/observedProperty",
-    "@type": "@id"
-  },
-  "ondernemingsnummer": {
-    "@id": "http://www.w3.org/ns/org#identifier"
-  },
-  "organisatie": {
-    "@id": "http://www.w3.org/2006/vcard/ns#org",
-    "@type": "@id"
-  },
-  "organisatienaam": {
-    "@id": "http://www.w3.org/2006/vcard/ns#organization-name"
-  },
-  "packageFileName": {
-    "@id": "http://spdx.org/rdf/terms#packageFileName"
-  },
   "packageName": {
     "@id": "http://spdx.org/rdf/terms#packageName"
   },
   "page": {
     "@id": "http://xmlns.com/foaf/0.1/page",
     "@type": "@id"
-  },
-  "phenomenonTime": {
-    "@id": "http://www.w3.org/ns/sosa/phenomenonTime",
-    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-  },
-  "postcode": {
-    "@id": "http://www.w3.org/ns/locn#postCode"
   },
   "prefLabel": {
     "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -446,46 +230,17 @@
     "@id": "http://purl.org/dc/terms/publisher",
     "@type": "@id"
   },
-  "rechtspersoonlijkheid": {
-    "@id": "http://www.w3.org/ns/org#classificatie",
-    "@type": "@id"
-  },
   "references": {
     "@id": "http://purl.org/dc/terms/references",
-    "@type": "@id"
-  },
-  "related": {
-    "@id": "http://www.w3.org/2004/02/skos/core#related",
     "@type": "@id"
   },
   "relation": {
     "@id": "http://purl.org/dc/terms/relation",
     "@type": "@id"
   },
-  "relationshipType_packageOf": {
-    "@id": "http://spdx.org/rdf/terms#relationshipType_packageOf",
-    "@type": "@id"
-  },
-  "relevantQuantityKind": {
-    "@id": "http://qudt.org/schema/qudt/relevantQuantityKind",
-    "@type": "@id",
-    "@container": "@set"
-  },
-  "relevantUnit": {
-    "@id": "http://qudt.org/schema/qudt/relevantUnit",
-    "@type": "@id"
-  },
   "resultFormat": {
     "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
     "@type": "@id"
-  },
-  "result": {
-    "@id": "http://www.w3.org/ns/sosa/hasResult",
-    "@type": "@id"
-  },
-  "resultTime": {
-    "@id": "http://www.w3.org/ns/sosa/resultTime",
-    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
   },
   "rightsHolder": {
     "@id": "http://purl.org/dc/terms/rightsHolder",
@@ -494,9 +249,6 @@
   "rootResource": {
     "@id": "http://rdfs.org/ns/void#rootResource",
     "@type": "@id"
-  },
-  "schemaAgency": {
-    "@id": "http://www.w3.org/ns/adms#schemaAgency"
   },
   "scopeNote": {
     "@id": "http://www.w3.org/2004/02/skos/core#scopeNote",
@@ -519,13 +271,6 @@
     "@id": "http://www.w3.org/ns/dcat#service",
     "@type": "@id"
   },
-  "severity": {
-    "@id": "http://www.w3.org/ns/shacl#severity",
-    "@type": "@id"
-  },
-  "simple_result": {
-    "@id": "http://www.w3.org/ns/sosa/hasSimpleResult"
-  },
   "source": {
     "@id": "http://purl.org/dc/terms/source",
     "@type": "@id"
@@ -542,19 +287,12 @@
     "@id": "http://purl.org/dc/terms/spatial",
     "@type": "@id"
   },
-  "straatnaam": {
-    "@id": "http://www.w3.org/ns/locn#thoroughfare"
-  },
   "subject": {
     "@id": "http://purl.org/dc/terms/subject",
     "@type": "@id"
   },
   "supportedLanguage": {
     "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
-    "@type": "@id"
-  },
-  "telefoon": {
-    "@id": "http://www.w3.org/2006/vcard/ns#hasTelephone",
     "@type": "@id"
   },
   "temporal": {
@@ -564,10 +302,6 @@
   "theme": {
     "@id": "http://www.w3.org/ns/dcat#theme",
     "@type": "@id"
-  },
-  "timePeriod": {
-    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#timePeriod",
-    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
   },
   "title": {
     "@id": "http://purl.org/dc/terms/title",
@@ -582,48 +316,10 @@
     "@type": "@id",
     "@container": "@set"
   },
-  "url": {
-    "@id": "http://www.w3.org/ns/sparql-service-description#url",
-    "@type": "@id"
-  },
-  "used": {
-    "@id": "http://www.w3.org/ns/prov#used",
-    "@type": "@id"
-  },
-  "usedProcedure": {
-    "@id": "http://www.w3.org/ns/sosa/usedProcedure",
-    "@type": "@id"
-  },
-  "value": {
-    "@id": "https://schema.org/value",
-    "@type": "http://www.w3.org/2001/XMLSchema#decimal"
-  },
-  "_value": "@value",
-  "vcard_note": {
-    "@id": "http://www.w3.org/2006/vcard/ns#note"
-  },
   "version": {
     "@id": "http://www.w3.org/2002/07/owl#versionInfo"
   },
   "versionInfo": {
     "@id": "http://spdx.org/rdf/terms#versionInfo"
-  },
-  "vestiging": {
-    "@id": "http://www.w3.org/ns/org#hasSite",
-    "@type": "@id"
-  },
-  "volledigAdres": {
-    "@id": "http://www.w3.org/ns/locn#fullAddress"
-  },
-  "voornaam": {
-    "@id": "http://www.w3.org/2006/vcard/ns#given-name"
-  },
-  "wasAssociatedWith": {
-    "@id": "http://www.w3.org/ns/prov#wasAssociatedWith",
-    "@type": "@id"
-  },
-  "wasInformedBy": {
-    "@id": "http://www.w3.org/ns/prov#wasInformedBy",
-    "@type": "@id"
   }
 }

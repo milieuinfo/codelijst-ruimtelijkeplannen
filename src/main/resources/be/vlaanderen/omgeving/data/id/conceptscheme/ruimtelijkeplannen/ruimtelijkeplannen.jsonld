@@ -1,29 +1,11 @@
 {
     "@context": {
-        "about": {
-            "@id": "https://schema.org/about",
-            "@type": "@id"
-        },
         "accessRights": {
             "@id": "http://purl.org/dc/terms/accessRights",
             "@type": "@id"
         },
         "accessURL": {
             "@id": "http://www.w3.org/ns/dcat#accessURL",
-            "@type": "@id"
-        },
-        "achternaam": {
-            "@id": "http://www.w3.org/2006/vcard/ns#family-name"
-        },
-        "actedOnBehalfOf": {
-            "@id": "http://www.w3.org/ns/prov#actedOnBehalfOf",
-            "@type": "@id"
-        },
-        "adres": {
-            "@id": "http://www.w3.org/ns/locn#address"
-        },
-        "alternatieveId": {
-            "@id": "http://www.w3.org/ns/adms#identifier",
             "@type": "@id"
         },
         "alternative": {
@@ -34,29 +16,9 @@
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
             "@language": "nl"
         },
-        "applicableUnit": {
-            "@id": "http://qudt.org/schema/qudt/applicableUnit",
-            "@type": "@id"
-        },
-        "asWKT": {
-            "@id": "http://www.opengis.net/ont/geosparql#asWKT",
-            "@type": "http://www.opengis.net/ont/geosparql#wktLiteral"
-        },
         "availableGraphs": {
             "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
             "@type": "@id"
-        },
-        "bedrijfsklasse": {
-            "@id": "https://data.vlaanderen.be/ns/omgevingsvergunning#juridischeKwalificatie",
-            "@type": "@id"
-        },
-        "belongsTo": {
-            "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
-            "@type": "@id"
-        },
-        "boolean_value": {
-            "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "broader": {
             "@id": "http://www.w3.org/2004/02/skos/core#broader",
@@ -70,9 +32,6 @@
             "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
             "@type": "@id"
         },
-        "casNumber": {
-            "@id": "http://dbpedia.org/ontology/casNumber"
-        },
         "closeMatch": {
             "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
             "@type": "@id"
@@ -80,28 +39,9 @@
         "code": {
             "@id": "http://www.w3.org/2004/02/skos/core#notation"
         },
-        "collections": {
-            "@type": "@id",
-            "@reverse": "member"
-        },
-        "comment": {
-            "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
-            "@language": "nl"
-        },
-        "compressFormat": {
-            "@id": "http://www.w3.org/ns/dcat#compressFormat",
-            "@type": "@id"
-        },
-        "conformsTo": {
-            "@id": "http://purl.org/dc/terms/conformsTo",
-            "@type": "@id"
-        },
         "contact": {
             "@id": "http://www.w3.org/ns/dcat#contactPoint",
             "@type": "@id"
-        },
-        "contactLabel": {
-            "@id": "http://www.w3.org/2006/vcard/ns#fn"
         },
         "contactPoint": {
             "@id": "http://www.w3.org/ns/dcat#contactPoint",
@@ -111,35 +51,10 @@
             "@id": "http://www.w3.org/ns/dcat#dataset",
             "@type": "@id"
         },
-        "dateAccepted": {
-            "@id": "http://purl.org/dc/terms/dateAccepted",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        },
-        "datum": {
-            "@id": "http://purl.org/dc/terms/date",
-            "@type": "http://www.w3.org/2001/XMLSchema#date"
-        },
-        "dc_identifier": {
-            "@id": "http://purl.org/dc/elements/1.1/identifier"
-        },
-        "dc_language": {
-            "@id": "http://purl.org/dc/elements/1.1/language",
-            "@language": "nl"
-        },
-        "dc_source": {
-            "@id": "http://purl.org/dc/elements/1.1/source"
-        },
-        "dct_language": {
-            "@id": "http://purl.org/dc/terms/language",
-            "@type": "@id"
-        },
         "dct_type": {
             "@id": "http://purl.org/dc/terms/type",
             "@type": "@id",
             "@container": "@set"
-        },
-        "dc_type": {
-            "@id": "http://purl.org/dc/elements/1.1/type"
         },
         "defaultDataset": {
             "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
@@ -169,14 +84,6 @@
             "@id": "http://www.w3.org/ns/dcat#downloadURL",
             "@type": "@id"
         },
-        "eenheid": {
-            "@id": "http://qudt.org/schema/qudt/unit",
-            "@type": "@id"
-        },
-        "email": {
-            "@id": "http://www.w3.org/2006/vcard/ns#hasEmail",
-            "@type": "@id"
-        },
         "endpointDescription": {
             "@id": "http://www.w3.org/ns/dcat#endpointDescription",
             "@type": "@id"
@@ -193,10 +100,6 @@
             "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
             "@type": "@id"
         },
-        "exploitant": {
-            "@id": "https://data.vlaanderen.be/ns/omgevingsvergunning#verantwoordelijke",
-            "@type": "@id"
-        },
         "feature": {
             "@id": "http://www.w3.org/ns/sparql-service-description#feature",
             "@type": "@id"
@@ -205,46 +108,8 @@
             "@id": "http://purl.org/dc/terms/format",
             "@type": "@id"
         },
-        "forProperty": {
-            "@id": "http://www.w3.org/ns/ssn/forProperty",
-            "@type": "@id"
-        },
-        "gemeentecode": {
-            "@id": "http://purl.org/dc/terms/coverage",
-            "@type": "@id"
-        },
-        "gemeente": {
-            "@id": "http://www.w3.org/ns/locn#postName"
-        },
-        "geolocatie": {
-            "@id": "http://www.w3.org/ns/locn#geometry"
-        },
         "graph": {
             "@id": "@graph"
-        },
-        "hasFeatureOfInterest": {
-            "@id": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
-            "@type": "@id"
-        },
-        "hasGeometry": {
-            "@id": "http://www.opengis.net/ont/geosparql#hasGeometry",
-            "@type": "@id"
-        },
-        "hasOperatingProperty": {
-            "@id": "http://www.w3.org/ns/ssn/systems/hasOperatingProperty",
-            "@type": "@id"
-        },
-        "hasOperatingRange": {
-            "@id": "http://www.w3.org/ns/ssn/systems/hasOperatingRange",
-            "@type": "@id"
-        },
-        "hasProperty": {
-            "@id": "http://www.w3.org/ns/ssn/hasProperty",
-            "@type": "@id"
-        },
-        "hasResult": {
-            "@id": "http://www.w3.org/ns/sosa/hasResult",
-            "@type": "@id"
         },
         "hasTopConcept": {
             "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
@@ -253,14 +118,6 @@
         },
         "hasVersion": {
             "@id": "http://purl.org/dc/terms/hasVersion",
-            "@type": "@id"
-        },
-        "homepage": {
-            "@id": "http://xmlns.com/foaf/0.1/homepage",
-            "@type": "@id"
-        },
-        "hoofdvestiging": {
-            "@id": "http://www.w3.org/ns/org#hasRegisteredSite",
             "@type": "@id"
         },
         "identifier": {
@@ -283,20 +140,8 @@
             "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
             "@type": "@id"
         },
-        "integer_value": {
-            "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-            "@type": "http://www.w3.org/2001/XMLSchema#integer"
-        },
-        "inXSDDateTime": {
-            "@id": "http://www.w3.org/2006/time#inXSDDateTime",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        },
         "isDeelVan": {
             "@id": "http://purl.org/dc/terms/isPartOf",
-            "@type": "@id"
-        },
-        "isPropertyOf": {
-            "@id": "http://www.w3.org/ns/ssn/isPropertyOf",
             "@type": "@id"
         },
         "isReferencedBy": {
@@ -311,22 +156,14 @@
             "@id": "http://purl.org/dc/terms/isVersionOf",
             "@type": "@id"
         },
-        "kwalitatieve_waarde": {
-            "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-            "@type": "@id"
-        },
         "label": {
             "@id": "http://www.w3.org/2000/01/rdf-schema#label",
             "@language": "nl"
-        },
-        "land": {
-            "@id": "http://www.w3.org/ns/locn#adminUnitL1"
         },
         "landingPage": {
             "@id": "http://www.w3.org/ns/dcat#landingPage",
             "@type": "@id"
         },
-        "language": "http://publications.europa.eu/resource/authority/language/",
         "accrualPeriodicity": {
             "@id": "http://purl.org/dc/terms/accrualPeriodicity",
             "@type": "@id"
@@ -335,24 +172,9 @@
             "@id": "http://purl.org/dc/terms/license",
             "@type": "@id"
         },
-        "lokaleId": {
-            "@id": "http://purl.org/dc/elements/1.1/identifier"
-        },
-        "locatie": {
-            "@id": "http://www.w3.org/ns/locn#location",
-            "@type": "@id"
-        },
-        "madeBySensor": {
-            "@id": "http://www.w3.org/ns/sosa/madeBySensor",
-            "@type": "@id"
-        },
         "mappingRelation": {
             "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
             "@type": "@id"
-        },
-        "maxValue": {
-            "@id": "https://schema.org/maxValue",
-            "@type": "http://www.w3.org/2001/XMLSchema#decimal"
         },
         "mediaType": {
             "@id": "http://www.w3.org/ns/dcat#mediaType",
@@ -361,13 +183,6 @@
         "member": {
             "@id": "http://www.w3.org/2004/02/skos/core#member",
             "@type": "@id"
-        },
-        "minValue": {
-            "@id": "https://schema.org/minValue",
-            "@type": "http://www.w3.org/2001/XMLSchema#decimal"
-        },
-        "naam": {
-            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel"
         },
         "namedGraph": {
             "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
@@ -398,43 +213,12 @@
             "@id": "http://www.w3.org/2004/02/skos/core#note",
             "@language": "nl"
         },
-        "numerieke_waarde": {
-            "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
-            "@type": "http://www.w3.org/2001/XMLSchema#decimal"
-        },
-        "nummer": {
-            "@id": "http://www.w3.org/ns/locn#locatorDesignator"
-        },
-        "observedProperty": {
-            "@id": "http://www.w3.org/ns/sosa/observedProperty",
-            "@type": "@id"
-        },
-        "ondernemingsnummer": {
-            "@id": "http://www.w3.org/ns/org#identifier"
-        },
-        "organisatie": {
-            "@id": "http://www.w3.org/2006/vcard/ns#org",
-            "@type": "@id"
-        },
-        "organisatienaam": {
-            "@id": "http://www.w3.org/2006/vcard/ns#organization-name"
-        },
-        "packageFileName": {
-            "@id": "http://spdx.org/rdf/terms#packageFileName"
-        },
         "packageName": {
             "@id": "http://spdx.org/rdf/terms#packageName"
         },
         "page": {
             "@id": "http://xmlns.com/foaf/0.1/page",
             "@type": "@id"
-        },
-        "phenomenonTime": {
-            "@id": "http://www.w3.org/ns/sosa/phenomenonTime",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        },
-        "postcode": {
-            "@id": "http://www.w3.org/ns/locn#postCode"
         },
         "prefLabel": {
             "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
@@ -447,46 +231,17 @@
             "@id": "http://purl.org/dc/terms/publisher",
             "@type": "@id"
         },
-        "rechtspersoonlijkheid": {
-            "@id": "http://www.w3.org/ns/org#classificatie",
-            "@type": "@id"
-        },
         "references": {
             "@id": "http://purl.org/dc/terms/references",
-            "@type": "@id"
-        },
-        "related": {
-            "@id": "http://www.w3.org/2004/02/skos/core#related",
             "@type": "@id"
         },
         "relation": {
             "@id": "http://purl.org/dc/terms/relation",
             "@type": "@id"
         },
-        "relationshipType_packageOf": {
-            "@id": "http://spdx.org/rdf/terms#relationshipType_packageOf",
-            "@type": "@id"
-        },
-        "relevantQuantityKind": {
-            "@id": "http://qudt.org/schema/qudt/relevantQuantityKind",
-            "@type": "@id",
-            "@container": "@set"
-        },
-        "relevantUnit": {
-            "@id": "http://qudt.org/schema/qudt/relevantUnit",
-            "@type": "@id"
-        },
         "resultFormat": {
             "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
             "@type": "@id"
-        },
-        "result": {
-            "@id": "http://www.w3.org/ns/sosa/hasResult",
-            "@type": "@id"
-        },
-        "resultTime": {
-            "@id": "http://www.w3.org/ns/sosa/resultTime",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "rightsHolder": {
             "@id": "http://purl.org/dc/terms/rightsHolder",
@@ -495,9 +250,6 @@
         "rootResource": {
             "@id": "http://rdfs.org/ns/void#rootResource",
             "@type": "@id"
-        },
-        "schemaAgency": {
-            "@id": "http://www.w3.org/ns/adms#schemaAgency"
         },
         "scopeNote": {
             "@id": "http://www.w3.org/2004/02/skos/core#scopeNote",
@@ -520,13 +272,6 @@
             "@id": "http://www.w3.org/ns/dcat#service",
             "@type": "@id"
         },
-        "severity": {
-            "@id": "http://www.w3.org/ns/shacl#severity",
-            "@type": "@id"
-        },
-        "simple_result": {
-            "@id": "http://www.w3.org/ns/sosa/hasSimpleResult"
-        },
         "source": {
             "@id": "http://purl.org/dc/terms/source",
             "@type": "@id"
@@ -543,19 +288,12 @@
             "@id": "http://purl.org/dc/terms/spatial",
             "@type": "@id"
         },
-        "straatnaam": {
-            "@id": "http://www.w3.org/ns/locn#thoroughfare"
-        },
         "subject": {
             "@id": "http://purl.org/dc/terms/subject",
             "@type": "@id"
         },
         "supportedLanguage": {
             "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
-            "@type": "@id"
-        },
-        "telefoon": {
-            "@id": "http://www.w3.org/2006/vcard/ns#hasTelephone",
             "@type": "@id"
         },
         "temporal": {
@@ -565,10 +303,6 @@
         "theme": {
             "@id": "http://www.w3.org/ns/dcat#theme",
             "@type": "@id"
-        },
-        "timePeriod": {
-            "@id": "http://purl.org/linked-data/sdmx/2009/dimension#timePeriod",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
         },
         "title": {
             "@id": "http://purl.org/dc/terms/title",
@@ -583,63 +317,22 @@
             "@type": "@id",
             "@container": "@set"
         },
-        "url": {
-            "@id": "http://www.w3.org/ns/sparql-service-description#url",
-            "@type": "@id"
-        },
-        "used": {
-            "@id": "http://www.w3.org/ns/prov#used",
-            "@type": "@id"
-        },
-        "usedProcedure": {
-            "@id": "http://www.w3.org/ns/sosa/usedProcedure",
-            "@type": "@id"
-        },
-        "value": {
-            "@id": "https://schema.org/value",
-            "@type": "http://www.w3.org/2001/XMLSchema#decimal"
-        },
-        "_value": "@value",
-        "vcard_note": {
-            "@id": "http://www.w3.org/2006/vcard/ns#note"
-        },
         "version": {
             "@id": "http://www.w3.org/2002/07/owl#versionInfo"
         },
         "versionInfo": {
             "@id": "http://spdx.org/rdf/terms#versionInfo"
         },
-        "vestiging": {
-            "@id": "http://www.w3.org/ns/org#hasSite",
-            "@type": "@id"
-        },
-        "volledigAdres": {
-            "@id": "http://www.w3.org/ns/locn#fullAddress"
-        },
-        "voornaam": {
-            "@id": "http://www.w3.org/2006/vcard/ns#given-name"
-        },
-        "wasAssociatedWith": {
-            "@id": "http://www.w3.org/ns/prov#wasAssociatedWith",
-            "@type": "@id"
-        },
-        "wasInformedBy": {
-            "@id": "http://www.w3.org/ns/prov#wasInformedBy",
-            "@type": "@id"
-        },
         "concept": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/",
-        "collectie": "https://data.omgeving.vlaanderen.be/id/collection/ruimtelijkeplannen/",
+        "procedurekenmerken": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/",
+        "conceptscheme_ruimtelijkeplannen": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/",
         "access_right": "http://publications.europa.eu/resource/authority/access-right/",
-        "adms": "http://www.w3.org/ns/adms#",
-        "assettype": "http://purl.org/adms/assettype/",
         "conceptscheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
         "country": "http://publications.europa.eu/resource/authority/country/",
         "datasets": "https://datasets.omgeving.vlaanderen.be/",
         "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
         "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
-        "dbo": "http://dbpedia.org/ontology/",
         "dcat": "http://www.w3.org/ns/dcat#",
-        "dc": "http://purl.org/dc/elements/1.1/",
         "dcmitype": "http://purl.org/dc/dcmitype/",
         "dcterms": "http://purl.org/dc/terms/",
         "eurovoc": "http://eurovoc.europa.eu/",
@@ -648,14 +341,9 @@
         "formats": "http://www.w3.org/ns/formats/",
         "frequency": "http://publications.europa.eu/resource/authority/frequency/",
         "gemet": "http://www.eionet.europa.eu/gemet/concept/",
-        "gml": "http://www.opengis.net/ont/gml#",
-        "gsp": "http://www.opengis.net/ont/geosparql#",
         "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
-        "locn": "http://www.w3.org/ns/locn#",
-        "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",
         "omg_catalog_doc": "https://data.omgeving.vlaanderen.be/doc/catalog/",
         "omg_catalog": "https://data.omgeving.vlaanderen.be/id/catalog/",
-        "omg_collection": "https://data.omgeving.vlaanderen.be/id/collection/",
         "omg_dataservice": "https://data.omgeving.vlaanderen.be/id/dataservice/",
         "omg_dataset_doc": "https://data.omgeving.vlaanderen.be/doc/dataset/",
         "omg_dataset": "https://data.omgeving.vlaanderen.be/id/dataset/",
@@ -663,51 +351,236 @@
         "omg_distribution": "https://data.omgeving.vlaanderen.be/id/distribution/",
         "omg_graphcollection": "https://data.omgeving.vlaanderen.be/id/graphcollection/",
         "omg_graph": "https://data.omgeving.vlaanderen.be/id/graph/",
-        "omg": "https://data.vlaanderen.be/ns/omgevingsvergunning#",
-        "omg_id": "https://data.omgeving.vlaanderen.be/id/",
         "omg_named_graph": "https://data.omgeving.vlaanderen.be/id/namedgraph/",
-        "omg_ontology": "https://data.omgeving.vlaanderen.be/id/ontology/",
-        "omg_package": "https://data.omgeving.vlaanderen.be/id/package/",
         "omg_periodoftime": "https://data.omgeving.vlaanderen.be/id/periodoftime/",
         "omg_service": "https://data.omgeving.vlaanderen.be/id/service/",
         "omg_vcard": "https://data.omgeving.vlaanderen.be/id/vcard/",
-        "org": "http://www.w3.org/ns/org#",
         "ovo": "http://data.vlaanderen.be/id/organisatie/",
         "owl": "http://www.w3.org/2002/07/owl#",
         "provenancestatement": "https://data.omgeving.vlaanderen.be/id/provenancestatement/dataset/",
-        "prov": "http://www.w3.org/ns/prov#",
-        "qb": "http://purl.org/linked-data/cube#",
-        "quantitykind": "http://qudt.org/vocab/quantitykind/",
-        "qudt": "http://qudt.org/schema/qudt/",
-        "qudt-schema": "https://qudt.org/schema/qudt/",
-        "qudt-unit": "https://qudt.org/vocab/unit/",
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "refnis2025": "http://vocab.belgif.be/auth/refnis2025/",
         "repo": "https://repo.omgeving.vlaanderen.be/artifactory/release/",
-        "rov": "http://www.w3.org/ns/regorg#",
-        "schema": "https://schema.org/",
-        "sdmx-attribute": "http://purl.org/linked-data/sdmx/2009/attribute#",
-        "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
-        "sdmx-measure": "http://purl.org/linked-data/sdmx/2009/measure#",
-        "sh": "http://www.w3.org/ns/shacl#",
         "skos": "http://www.w3.org/2004/02/skos/core#",
-        "sosa": "http://www.w3.org/ns/sosa/",
-        "sosa-om": "http://www.w3.org/ns/sosa/om#",
         "spdx": "http://spdx.org/rdf/terms#",
         "ssd": "http://www.w3.org/ns/sparql-service-description#",
-        "ssn": "http://www.w3.org/ns/ssn/",
-        "ssn-system": "http://www.w3.org/ns/ssn/systems/",
-        "time": "http://www.w3.org/2006/time#",
-        "unit": "http://qudt.org/vocab/unit/",
         "vcard": "http://www.w3.org/2006/vcard/ns#",
         "void": "http://rdfs.org/ns/void#",
-        "wise": "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
-        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "@base": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/"
     },
     "graph": [
+        {
+            "id": "procedurekenmerken:bevat-planologische-compensatie",
+            "_type": [
+                "skos:Concept"
+            ],
+            "altLabel": "Bevat planologische compensatie",
+            "definition": "Deze procedure genereert een positieve balans.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "BEVAT_PLANOLOGISCHE_COMPENSATIE",
+            "note": "Deze procedure genereert een positieve balans.",
+            "prefLabel": "Het plan bevat compensatie",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:delegatie",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "Via een delegatie draagt een plannende overheid de bevoegdheid om een planproces te voeren over aan een andere (hogere of lagere) plannende overheid.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "DELEGATIE",
+            "note": "Via een delegatie draagt een plannende overheid de bevoegdheid om een planproces te voeren over aan een andere (hogere of lagere) plannende overheid.",
+            "prefLabel": "Delegatie",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:gebruikersschade",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "De schade die een landbouwer lijdt wanneer de landbouwgrond aan gebruiksbeperkingen moet voldoen.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "GEBRUIKERSSCHADE",
+            "note": [
+                "De schade die een landbouwer lijdt wanneer de landbouwgrond aan gebruiksbeperkingen moet voldoen.",
+                "Bijvoorbeeld een bestemmingswijziging (van landbouw naar natuur of bos), het opleggen van een erfdienstbaarheid of een overdruk in een ruimtelijk plan."
+            ],
+            "prefLabel": "Gebruikersschade",
+            "scopeNote": "Bijvoorbeeld een bestemmingswijziging (van landbouw naar natuur of bos), het opleggen van een erfdienstbaarheid of een overdruk in een ruimtelijk plan.",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:grensoverschrijdende-effecten",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "Mogelijke effecten in grensgemeenten waarvoor grensoverschrijdende instanties geraadpleegd moeten worden en/of in het planproces betrokken worden.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "GRENSOVERSCHRIJDENDE_EFFECTEN",
+            "note": "Mogelijke effecten in grensgemeenten waarvoor grensoverschrijdende instanties geraadpleegd moeten worden en/of in het planproces betrokken worden.",
+            "prefLabel": "Grensoverschrijdende effecten",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:herneming",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "Wanneer een RvS-procedure een plan geheel of gedeeltelijk vernietigt, kan de initiatiefnemer beslissen om het plan geheel of gedeeltelijk te hernemen.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "HERNEMING",
+            "note": "Wanneer een RvS-procedure een plan geheel of gedeeltelijk vernietigt, kan de initiatiefnemer beslissen om het plan geheel of gedeeltelijk te hernemen.",
+            "prefLabel": "Herneming",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:kapitaalschade",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "De schade die de eigenaar van landbouwgrond lijdt doordat de overheid de economische mogelijkheden van die grond beperkt.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "KAPITAALSCHADE",
+            "note": "De schade die de eigenaar van landbouwgrond lijdt doordat de overheid de economische mogelijkheden van die grond beperkt.",
+            "prefLabel": "Kapitaalschade",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:onteigening",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "Instrument om het gebruik van gronden te regelen.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "ONTEIGENING",
+            "note": [
+                "Instrument om het gebruik van gronden te regelen.",
+                "De noodzaak en proportionaliteit van de onteigening moeten goed gemotiveerd worden, inclusief bewijs dat alternatieven niet haalbaar zijn."
+            ],
+            "prefLabel": "Onteigening",
+            "scopeNote": "De noodzaak en proportionaliteit van de onteigening moeten goed gemotiveerd worden, inclusief bewijs dat alternatieven niet haalbaar zijn.",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:overeenkomst",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "Een overeenkomst wordt gemaakt met minstens één andere partij en wordt ten laatste in de fase voorlopige vaststelling opgenomen en mee ter inzage gelegd tijdens het openbaar onderzoek.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "OVEREENKOMST",
+            "note": "Een overeenkomst wordt gemaakt met minstens één andere partij en wordt ten laatste in de fase voorlopige vaststelling opgenomen en mee ter inzage gelegd tijdens het openbaar onderzoek.",
+            "prefLabel": "Overeenkomst",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:passende-beoordeling",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "Een ecologisch onderzoeksrapport dat nagaat of een gepland project negatieve gevolgen heeft voor de natuurlijke kenmerken en instandhoudingsdoelstellingen van een Europees beschermd Natura 2000-gebied.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "PASSENDE_BEOORDELING",
+            "note": "Een ecologisch onderzoeksrapport dat nagaat of een gepland project negatieve gevolgen heeft voor de natuurlijke kenmerken en instandhoudingsdoelstellingen van een Europees beschermd Natura 2000-gebied.",
+            "prefLabel": "Passende beoordeling",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:planbaten",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "Een waardestijging (meerwaarde) van een perceel grond die ontstaat doordat de overheid de bestemming van dat perceel wijzigt.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "PLANBATEN",
+            "note": "Een waardestijging (meerwaarde) van een perceel grond die ontstaat doordat de overheid de bestemming van dat perceel wijzigt.",
+            "prefLabel": "Planbaten",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:planschade",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "De financiële schade of waardevermindering die een eigenaar lijdt doordat de overheid een bestemmingsplan of ruimtelijk plan wijzigt.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "PLANSCHADE",
+            "note": "De financiële schade of waardevermindering die een eigenaar lijdt doordat de overheid een bestemmingsplan of ruimtelijk plan wijzigt.",
+            "prefLabel": "Planschade",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:recht-van-voorkoop",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "TODO: definitie van recht van voorkoop.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "RECHT_VAN_VOORKOOP",
+            "note": [
+                "TODO: definitie van recht van voorkoop.",
+                "Belang kennisgeving eigenaars uiterlijk op de dag van inwerkingtreding van het RUP."
+            ],
+            "prefLabel": "Recht van voorkoop",
+            "scopeNote": "Belang kennisgeving eigenaars uiterlijk op de dag van inwerkingtreding van het RUP.",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:ruimtelijk-veiligheidsrapport",
+            "_type": [
+                "skos:Concept"
+            ],
+            "altLabel": "RVR",
+            "definition": "Een ruimtelijk veiligheidsrapport is vereist.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "RUIMTELIJK_VEILIGHEIDSRAPPORT",
+            "note": "Een ruimtelijk veiligheidsrapport is vereist.",
+            "prefLabel": "Ruimtelijk veiligheidsrapport",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:vereist-planologische-compensatie",
+            "_type": [
+                "skos:Concept"
+            ],
+            "altLabel": "Vereist planologische compensatie",
+            "definition": "Deze procedure genereert een negatieve balans.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "VEREIST_PLANOLOGISCHE_COMPENSATIE",
+            "note": "Deze procedure genereert een negatieve balans.",
+            "prefLabel": "Het plan vereist compensatie",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:verordening",
+            "_type": [
+                "skos:Concept"
+            ],
+            "definition": "Een verordening bevat aanvullende, meer gedetailleerde of thematische regels.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "VERORDENING",
+            "note": [
+                "Een verordening bevat aanvullende, meer gedetailleerde of thematische regels.",
+                "Verordeningen kunnen specifieke bepalingen bevatten zoals toegankelijkheid, milieubescherming, maximaal toegelaten activiteiten en functies. Komt niet veel voor bij gewestelijke RUP's."
+            ],
+            "prefLabel": "Verordening",
+            "scopeNote": "Verordeningen kunnen specifieke bepalingen bevatten zoals toegankelijkheid, milieubescherming, maximaal toegelaten activiteiten en functies. Komt niet veel voor bij gewestelijke RUP's.",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
+        {
+            "id": "procedurekenmerken:verscherpte-natuurtoets",
+            "_type": [
+                "skos:Concept"
+            ],
+            "altLabel": "VEN-toets",
+            "definition": "Een verplichte beoordeling die onderzoekt of een vergunningsplichtige activiteit onvermijdbare en onherstelbare schade kan veroorzaken aan de natuurlijke kenmerken van een gebied binnen het Vlaams Ecologisch Netwerk.",
+            "inScheme": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "code": "VERSCHERPTE_NATUURTOETS",
+            "note": "Een verplichte beoordeling die onderzoekt of een vergunningsplichtige activiteit onvermijdbare en onherstelbare schade kan veroorzaken aan de natuurlijke kenmerken van een gebied binnen het Vlaams Ecologisch Netwerk.",
+            "prefLabel": "Verscherpte natuurtoets",
+            "topConceptOf": "conceptscheme:ruimtelijkeplannen/procedurekenmerken"
+        },
         {
             "id": "concept:voorbeeld",
             "_type": [
@@ -731,6 +604,37 @@
             ],
             "note": "TODO: definitie van het conceptschema ruimtelijkeplannen.",
             "prefLabel": "conceptschema ruimtelijkeplannen"
+        },
+        {
+            "id": "conceptscheme:ruimtelijkeplannen/procedurekenmerken",
+            "_type": [
+                "skos:ConceptScheme"
+            ],
+            "definition": "Kenmerken van de procedure van een ruimtelijk plan.",
+            "hasTopConcept": [
+                "procedurekenmerken:bevat-planologische-compensatie",
+                "procedurekenmerken:delegatie",
+                "procedurekenmerken:gebruikersschade",
+                "procedurekenmerken:grensoverschrijdende-effecten",
+                "procedurekenmerken:herneming",
+                "procedurekenmerken:kapitaalschade",
+                "procedurekenmerken:onteigening",
+                "procedurekenmerken:overeenkomst",
+                "procedurekenmerken:passende-beoordeling",
+                "procedurekenmerken:planbaten",
+                "procedurekenmerken:planschade",
+                "procedurekenmerken:recht-van-voorkoop",
+                "procedurekenmerken:ruimtelijk-veiligheidsrapport",
+                "procedurekenmerken:vereist-planologische-compensatie",
+                "procedurekenmerken:verordening",
+                "procedurekenmerken:verscherpte-natuurtoets"
+            ],
+            "note": [
+                "Kenmerken van de procedure van een ruimtelijk plan.",
+                "Voorheen benoemd als voorkomende gevallen."
+            ],
+            "prefLabel": "procedurekenmerken",
+            "scopeNote": "Voorheen benoemd als voorkomende gevallen."
         }
     ]
 }

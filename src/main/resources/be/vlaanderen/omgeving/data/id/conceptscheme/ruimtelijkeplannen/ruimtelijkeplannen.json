@@ -1,5 +1,217 @@
 [
     {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/bevat-planologische-compensatie",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "altLabel": "Bevat planologische compensatie",
+        "definition": "Deze procedure genereert een positieve balans.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "BEVAT_PLANOLOGISCHE_COMPENSATIE",
+        "note": "Deze procedure genereert een positieve balans.",
+        "prefLabel": "Het plan bevat compensatie",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/delegatie",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "Via een delegatie draagt een plannende overheid de bevoegdheid om een planproces te voeren over aan een andere (hogere of lagere) plannende overheid.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "DELEGATIE",
+        "note": "Via een delegatie draagt een plannende overheid de bevoegdheid om een planproces te voeren over aan een andere (hogere of lagere) plannende overheid.",
+        "prefLabel": "Delegatie",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/gebruikersschade",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "De schade die een landbouwer lijdt wanneer de landbouwgrond aan gebruiksbeperkingen moet voldoen.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "GEBRUIKERSSCHADE",
+        "note": [
+            "De schade die een landbouwer lijdt wanneer de landbouwgrond aan gebruiksbeperkingen moet voldoen.",
+            "Bijvoorbeeld een bestemmingswijziging (van landbouw naar natuur of bos), het opleggen van een erfdienstbaarheid of een overdruk in een ruimtelijk plan."
+        ],
+        "prefLabel": "Gebruikersschade",
+        "scopeNote": "Bijvoorbeeld een bestemmingswijziging (van landbouw naar natuur of bos), het opleggen van een erfdienstbaarheid of een overdruk in een ruimtelijk plan.",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/grensoverschrijdende-effecten",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "Mogelijke effecten in grensgemeenten waarvoor grensoverschrijdende instanties geraadpleegd moeten worden en/of in het planproces betrokken worden.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "GRENSOVERSCHRIJDENDE_EFFECTEN",
+        "note": "Mogelijke effecten in grensgemeenten waarvoor grensoverschrijdende instanties geraadpleegd moeten worden en/of in het planproces betrokken worden.",
+        "prefLabel": "Grensoverschrijdende effecten",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/herneming",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "Wanneer een RvS-procedure een plan geheel of gedeeltelijk vernietigt, kan de initiatiefnemer beslissen om het plan geheel of gedeeltelijk te hernemen.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "HERNEMING",
+        "note": "Wanneer een RvS-procedure een plan geheel of gedeeltelijk vernietigt, kan de initiatiefnemer beslissen om het plan geheel of gedeeltelijk te hernemen.",
+        "prefLabel": "Herneming",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/kapitaalschade",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "De schade die de eigenaar van landbouwgrond lijdt doordat de overheid de economische mogelijkheden van die grond beperkt.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "KAPITAALSCHADE",
+        "note": "De schade die de eigenaar van landbouwgrond lijdt doordat de overheid de economische mogelijkheden van die grond beperkt.",
+        "prefLabel": "Kapitaalschade",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/onteigening",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "Instrument om het gebruik van gronden te regelen.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "ONTEIGENING",
+        "note": [
+            "Instrument om het gebruik van gronden te regelen.",
+            "De noodzaak en proportionaliteit van de onteigening moeten goed gemotiveerd worden, inclusief bewijs dat alternatieven niet haalbaar zijn."
+        ],
+        "prefLabel": "Onteigening",
+        "scopeNote": "De noodzaak en proportionaliteit van de onteigening moeten goed gemotiveerd worden, inclusief bewijs dat alternatieven niet haalbaar zijn.",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/overeenkomst",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "Een overeenkomst wordt gemaakt met minstens één andere partij en wordt ten laatste in de fase voorlopige vaststelling opgenomen en mee ter inzage gelegd tijdens het openbaar onderzoek.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "OVEREENKOMST",
+        "note": "Een overeenkomst wordt gemaakt met minstens één andere partij en wordt ten laatste in de fase voorlopige vaststelling opgenomen en mee ter inzage gelegd tijdens het openbaar onderzoek.",
+        "prefLabel": "Overeenkomst",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/passende-beoordeling",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "Een ecologisch onderzoeksrapport dat nagaat of een gepland project negatieve gevolgen heeft voor de natuurlijke kenmerken en instandhoudingsdoelstellingen van een Europees beschermd Natura 2000-gebied.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "PASSENDE_BEOORDELING",
+        "note": "Een ecologisch onderzoeksrapport dat nagaat of een gepland project negatieve gevolgen heeft voor de natuurlijke kenmerken en instandhoudingsdoelstellingen van een Europees beschermd Natura 2000-gebied.",
+        "prefLabel": "Passende beoordeling",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/planbaten",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "Een waardestijging (meerwaarde) van een perceel grond die ontstaat doordat de overheid de bestemming van dat perceel wijzigt.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "PLANBATEN",
+        "note": "Een waardestijging (meerwaarde) van een perceel grond die ontstaat doordat de overheid de bestemming van dat perceel wijzigt.",
+        "prefLabel": "Planbaten",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/planschade",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "De financiële schade of waardevermindering die een eigenaar lijdt doordat de overheid een bestemmingsplan of ruimtelijk plan wijzigt.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "PLANSCHADE",
+        "note": "De financiële schade of waardevermindering die een eigenaar lijdt doordat de overheid een bestemmingsplan of ruimtelijk plan wijzigt.",
+        "prefLabel": "Planschade",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/recht-van-voorkoop",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "TODO: definitie van recht van voorkoop.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "RECHT_VAN_VOORKOOP",
+        "note": [
+            "TODO: definitie van recht van voorkoop.",
+            "Belang kennisgeving eigenaars uiterlijk op de dag van inwerkingtreding van het RUP."
+        ],
+        "prefLabel": "Recht van voorkoop",
+        "scopeNote": "Belang kennisgeving eigenaars uiterlijk op de dag van inwerkingtreding van het RUP.",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/ruimtelijk-veiligheidsrapport",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "altLabel": "RVR",
+        "definition": "Een ruimtelijk veiligheidsrapport is vereist.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "RUIMTELIJK_VEILIGHEIDSRAPPORT",
+        "note": "Een ruimtelijk veiligheidsrapport is vereist.",
+        "prefLabel": "Ruimtelijk veiligheidsrapport",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/vereist-planologische-compensatie",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "altLabel": "Vereist planologische compensatie",
+        "definition": "Deze procedure genereert een negatieve balans.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "VEREIST_PLANOLOGISCHE_COMPENSATIE",
+        "note": "Deze procedure genereert een negatieve balans.",
+        "prefLabel": "Het plan vereist compensatie",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/verordening",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "definition": "Een verordening bevat aanvullende, meer gedetailleerde of thematische regels.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "VERORDENING",
+        "note": [
+            "Een verordening bevat aanvullende, meer gedetailleerde of thematische regels.",
+            "Verordeningen kunnen specifieke bepalingen bevatten zoals toegankelijkheid, milieubescherming, maximaal toegelaten activiteiten en functies. Komt niet veel voor bij gewestelijke RUP's."
+        ],
+        "prefLabel": "Verordening",
+        "scopeNote": "Verordeningen kunnen specifieke bepalingen bevatten zoals toegankelijkheid, milieubescherming, maximaal toegelaten activiteiten en functies. Komt niet veel voor bij gewestelijke RUP's.",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/verscherpte-natuurtoets",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "altLabel": "VEN-toets",
+        "definition": "Een verplichte beoordeling die onderzoekt of een vergunningsplichtige activiteit onvermijdbare en onherstelbare schade kan veroorzaken aan de natuurlijke kenmerken van een gebied binnen het Vlaams Ecologisch Netwerk.",
+        "inScheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "code": "VERSCHERPTE_NATUURTOETS",
+        "note": "Een verplichte beoordeling die onderzoekt of een vergunningsplichtige activiteit onvermijdbare en onherstelbare schade kan veroorzaken aan de natuurlijke kenmerken van een gebied binnen het Vlaams Ecologisch Netwerk.",
+        "prefLabel": "Verscherpte natuurtoets",
+        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken"
+    },
+    {
         "id": "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/voorbeeld",
         "_type": [
             "http://www.w3.org/2004/02/skos/core#Concept"
@@ -22,5 +234,36 @@
         ],
         "note": "TODO: definitie van het conceptschema ruimtelijkeplannen.",
         "prefLabel": "conceptschema ruimtelijkeplannen"
+    },
+    {
+        "id": "https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/procedurekenmerken",
+        "_type": [
+            "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "definition": "Kenmerken van de procedure van een ruimtelijk plan.",
+        "hasTopConcept": [
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/bevat-planologische-compensatie",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/delegatie",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/gebruikersschade",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/grensoverschrijdende-effecten",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/herneming",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/kapitaalschade",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/onteigening",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/overeenkomst",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/passende-beoordeling",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/planbaten",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/planschade",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/recht-van-voorkoop",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/ruimtelijk-veiligheidsrapport",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/vereist-planologische-compensatie",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/verordening",
+            "https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/verscherpte-natuurtoets"
+        ],
+        "note": [
+            "Kenmerken van de procedure van een ruimtelijk plan.",
+            "Voorheen benoemd als voorkomende gevallen."
+        ],
+        "prefLabel": "procedurekenmerken",
+        "scopeNote": "Voorheen benoemd als voorkomende gevallen."
     }
 ]

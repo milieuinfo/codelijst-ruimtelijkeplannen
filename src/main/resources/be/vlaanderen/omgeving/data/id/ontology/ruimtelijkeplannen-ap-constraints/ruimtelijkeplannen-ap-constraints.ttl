@@ -21,12 +21,12 @@
 omg_ont:ruimtelijkeplannen-ap-constraints
     a               owl:Ontology ;
     rdfs:comment
-                    "Specifieert hoe de data in de codelijst ruimtelijkeplannen te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@en ;
+                    "Specifieert hoe de data in de codelijsten in verband met ruimtelijkeplannen te encoderen in RDF (i.e. RDF termen, kardinaliteiten,...)."@en ;
     rdfs:label      "ruimtelijkeplannen AP Constraints"@en ;
-    dct:abstract    "Het ruimtelijkeplannen applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van de codelijst ruimtelijkeplannen. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande vocabularia zoals skos en dcterms."@en ;
+    dct:abstract    "Het ruimtelijkeplannen applicatieprofiel specifieert de RDF termen (klassen en properties) en bijhorende constraints die gebruikt worden voor het beschrijven van de codelijsten in verband met ruimtelijkeplannen. Het maakt hierbij zoveel mogelijk gebruik van bestaande termen (klassen en properties) uit bestaande vocabularia zoals skos en dcterms."@en ;
     dct:alternative "ruimtelijkeplannen AP Shapes"@en ;
     dct:creator     omg_ag_cl:creator ;
-    dct:description "Dit is de SHACL encodering van het applicatieprofiel van de codelijst ruimtelijkeplannen."@en ;
+    dct:description "Dit is de SHACL encodering van het applicatieprofiel van de codelijsten in verband met ruimtelijkeplannen."@en ;
     dct:issued      "2026-10-26"^^xsd:date ;
     dct:title       "ruimtelijkeplannen AP Constraints"@en ;
     xkos:belongsTo  omg_dataset:codelijst-ruimtelijkeplannen ;
@@ -51,12 +51,12 @@ omg_ag_cl:creator
 # Node Shapes
 ons:schema
     a                sh:NodeShape ;
-    rdfs:label       "conceptschema ruimtelijkeplannen"@en ;
-    sh:name          "conceptschema ruimtelijkeplannen"@en ;
-    sh:description   "Het schema waarbinnen de concepten van ruimtelijkeplannen gedefinieerd zijn"@en ;
+    rdfs:label       "conceptschema"@en ;
+    sh:name          "conceptschema"@en ;
+    sh:description   "Een schema waarbinnen de concepten van een codelijst in verband met ruimtelijkeplannen gedefinieerd zijn"@en ;
     rdfs:isDefinedBy omg_ont:ruimtelijkeplannen-ap-constraints, omg_voc:ruimtelijkeplannen-ap-constraints ;
     sh:property      omg_ps:conceptscheme_prefLabel, omg_ps:schema_hasTopConcept,
-                     omg_ps:definition, omg_ps:rdf_type;
+                     omg_ps:definition, omg_ps:scopeNote, omg_ps:rdf_type;
 
     sh:targetClass   skos:ConceptScheme .
 
@@ -79,13 +79,13 @@ ons:concept
     a                sh:NodeShape ;
     rdfs:label       "concept"@en ;
     sh:name          "concept"@en ;
-    sh:description   "Een concept uit de codelijst ruimtelijkeplannen."@en ;
+    sh:description   "Een concept uit een van de codelijsten in verband met ruimtelijkeplannen."@en ;
     rdfs:isDefinedBy omg_ont:ruimtelijkeplannen-ap-constraints, omg_voc:ruimtelijkeplannen-ap-constraints ;
     sh:property      omg_ps:notation, omg_ps:inScheme,
                      omg_ps:references, omg_ps:definition,
                      omg_ps:prefLabel, omg_ps:theme,
                      omg_ps:topConceptOf, omg_ps:altLabel,
-                     omg_ps:rdf_type, omg_ps:note ;
+                     omg_ps:rdf_type, omg_ps:note, omg_ps:scopeNote ;
 
     sh:targetClass   skos:Concept .
 
@@ -188,6 +188,8 @@ omg_ps:notation
     sh:description   "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens die wordt gebruikt om een concept op unieke wijze te identificeren binnen de context van dit schema."@en ;
     rdfs:isDefinedBy omg_ont:ruimtelijkeplannen-ap-constraints, omg_voc:ruimtelijkeplannen-ap-constraints ;
     sh:datatype      xsd:string ;
+    sh:maxCount      1 ;
+    sh:minCount      1 ;
     sh:nodeKind      sh:Literal ;
     sh:property      omg_ps:unique_notation ;
     sh:path          skos:notation .
@@ -233,9 +235,22 @@ omg_ps:definition
     rdfs:isDefinedBy omg_ont:ruimtelijkeplannen-ap-constraints, omg_voc:ruimtelijkeplannen-ap-constraints ;
     sh:datatype      rdf:langString ;
     sh:languageIn    ( "nl" "en" ) ;
+    sh:uniqueLang    true ;
     sh:maxCount      2 ;
+    sh:minCount      1 ;
     sh:nodeKind      sh:Literal ;
     sh:path          skos:definition .
+
+omg_ps:scopeNote
+    a                sh:PropertyShape ;
+    rdfs:label       "toepassingsnota"@en ;
+    sh:name          "toepassingsnota"@en ;
+    sh:description   "Een toelichting bij het bedoelde gebruik of de reikwijdte van het concept of het schema."@en ;
+    rdfs:isDefinedBy omg_ont:ruimtelijkeplannen-ap-constraints, omg_voc:ruimtelijkeplannen-ap-constraints ;
+    sh:datatype      rdf:langString ;
+    sh:languageIn    ( "nl" "en" ) ;
+    sh:nodeKind      sh:Literal ;
+    sh:path          skos:scopeNote .
 
 omg_ps:note
     a                sh:PropertyShape ;

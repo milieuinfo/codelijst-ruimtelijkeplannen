@@ -1,16 +1,13 @@
 @prefix concept: <https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/>.
-@prefix collectie: <https://data.omgeving.vlaanderen.be/id/collection/ruimtelijkeplannen/>.
+@prefix procedurekenmerken: <https://data.omgeving.vlaanderen.be/id/concept/ruimtelijkeplannen/procedurekenmerken/>.
+@prefix conceptscheme_ruimtelijkeplannen: <https://data.omgeving.vlaanderen.be/id/conceptscheme/ruimtelijkeplannen/>.
 @prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
-@prefix adms: <http://www.w3.org/ns/adms#>.
-@prefix assettype: <http://purl.org/adms/assettype/>.
 @prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>.
 @prefix country: <http://publications.europa.eu/resource/authority/country/>.
 @prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
 @prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
 @prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
-@prefix dbo: <http://dbpedia.org/ontology/>.
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
-@prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix dcmitype: <http://purl.org/dc/dcmitype/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix eurovoc: <http://eurovoc.europa.eu/>.
@@ -19,14 +16,9 @@
 @prefix formats: <http://www.w3.org/ns/formats/>.
 @prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
 @prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
-@prefix gml: <http://www.opengis.net/ont/gml#>.
-@prefix gsp: <http://www.opengis.net/ont/geosparql#>.
 @prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
-@prefix locn: <http://www.w3.org/ns/locn#>.
-@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
 @prefix omg_catalog_doc: <https://data.omgeving.vlaanderen.be/doc/catalog/>.
 @prefix omg_catalog: <https://data.omgeving.vlaanderen.be/id/catalog/>.
-@prefix omg_collection: <https://data.omgeving.vlaanderen.be/id/collection/>.
 @prefix omg_dataservice: <https://data.omgeving.vlaanderen.be/id/dataservice/>.
 @prefix omg_dataset_doc: <https://data.omgeving.vlaanderen.be/doc/dataset/>.
 @prefix omg_dataset: <https://data.omgeving.vlaanderen.be/id/dataset/>.
@@ -34,49 +26,142 @@
 @prefix omg_distribution: <https://data.omgeving.vlaanderen.be/id/distribution/>.
 @prefix omg_graphcollection: <https://data.omgeving.vlaanderen.be/id/graphcollection/>.
 @prefix omg_graph: <https://data.omgeving.vlaanderen.be/id/graph/>.
-@prefix omg: <https://data.vlaanderen.be/ns/omgevingsvergunning#>.
-@prefix omg_id: <https://data.omgeving.vlaanderen.be/id/>.
 @prefix omg_named_graph: <https://data.omgeving.vlaanderen.be/id/namedgraph/>.
-@prefix omg_ontology: <https://data.omgeving.vlaanderen.be/id/ontology/>.
-@prefix omg_package: <https://data.omgeving.vlaanderen.be/id/package/>.
 @prefix omg_periodoftime: <https://data.omgeving.vlaanderen.be/id/periodoftime/>.
 @prefix omg_service: <https://data.omgeving.vlaanderen.be/id/service/>.
 @prefix omg_vcard: <https://data.omgeving.vlaanderen.be/id/vcard/>.
-@prefix org: <http://www.w3.org/ns/org#>.
 @prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix provenancestatement: <https://data.omgeving.vlaanderen.be/id/provenancestatement/dataset/>.
-@prefix prov: <http://www.w3.org/ns/prov#>.
-@prefix qb: <http://purl.org/linked-data/cube#>.
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/>.
-@prefix qudt: <http://qudt.org/schema/qudt/>.
-@prefix qudt-schema: <https://qudt.org/schema/qudt/>.
-@prefix qudt-unit: <https://qudt.org/vocab/unit/>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix refnis2025: <http://vocab.belgif.be/auth/refnis2025/>.
 @prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
-@prefix rov: <http://www.w3.org/ns/regorg#>.
-@prefix schema: <https://schema.org/>.
-@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#>.
-@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>.
-@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#>.
-@prefix sh: <http://www.w3.org/ns/shacl#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix sosa: <http://www.w3.org/ns/sosa/>.
-@prefix sosa-om: <http://www.w3.org/ns/sosa/om#>.
 @prefix spdx: <http://spdx.org/rdf/terms#>.
 @prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
-@prefix ssn: <http://www.w3.org/ns/ssn/>.
-@prefix ssn-system: <http://www.w3.org/ns/ssn/systems/>.
-@prefix time: <http://www.w3.org/2006/time#>.
-@prefix unit: <http://qudt.org/vocab/unit/>.
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
 @prefix void: <http://rdfs.org/ns/void#>.
-@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
-@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
+procedurekenmerken:bevat-planologische-compensatie a skos:Concept;
+    skos:altLabel "Bevat planologische compensatie"@nl;
+    skos:definition "Deze procedure genereert een positieve balans."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "BEVAT_PLANOLOGISCHE_COMPENSATIE";
+    skos:note "Deze procedure genereert een positieve balans."@nl;
+    skos:prefLabel "Het plan bevat compensatie"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:delegatie a skos:Concept;
+    skos:definition "Via een delegatie draagt een plannende overheid de bevoegdheid om een planproces te voeren over aan een andere (hogere of lagere) plannende overheid."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "DELEGATIE";
+    skos:note "Via een delegatie draagt een plannende overheid de bevoegdheid om een planproces te voeren over aan een andere (hogere of lagere) plannende overheid."@nl;
+    skos:prefLabel "Delegatie"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:gebruikersschade a skos:Concept;
+    skos:definition "De schade die een landbouwer lijdt wanneer de landbouwgrond aan gebruiksbeperkingen moet voldoen."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "GEBRUIKERSSCHADE";
+    skos:note "Bijvoorbeeld een bestemmingswijziging (van landbouw naar natuur of bos), het opleggen van een erfdienstbaarheid of een overdruk in een ruimtelijk plan."@nl, "De schade die een landbouwer lijdt wanneer de landbouwgrond aan gebruiksbeperkingen moet voldoen."@nl;
+    skos:prefLabel "Gebruikersschade"@nl;
+    skos:scopeNote "Bijvoorbeeld een bestemmingswijziging (van landbouw naar natuur of bos), het opleggen van een erfdienstbaarheid of een overdruk in een ruimtelijk plan."@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:grensoverschrijdende-effecten a skos:Concept;
+    skos:definition "Mogelijke effecten in grensgemeenten waarvoor grensoverschrijdende instanties geraadpleegd moeten worden en/of in het planproces betrokken worden."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "GRENSOVERSCHRIJDENDE_EFFECTEN";
+    skos:note "Mogelijke effecten in grensgemeenten waarvoor grensoverschrijdende instanties geraadpleegd moeten worden en/of in het planproces betrokken worden."@nl;
+    skos:prefLabel "Grensoverschrijdende effecten"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:herneming a skos:Concept;
+    skos:definition "Wanneer een RvS-procedure een plan geheel of gedeeltelijk vernietigt, kan de initiatiefnemer beslissen om het plan geheel of gedeeltelijk te hernemen."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "HERNEMING";
+    skos:note "Wanneer een RvS-procedure een plan geheel of gedeeltelijk vernietigt, kan de initiatiefnemer beslissen om het plan geheel of gedeeltelijk te hernemen."@nl;
+    skos:prefLabel "Herneming"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:kapitaalschade a skos:Concept;
+    skos:definition "De schade die de eigenaar van landbouwgrond lijdt doordat de overheid de economische mogelijkheden van die grond beperkt."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "KAPITAALSCHADE";
+    skos:note "De schade die de eigenaar van landbouwgrond lijdt doordat de overheid de economische mogelijkheden van die grond beperkt."@nl;
+    skos:prefLabel "Kapitaalschade"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:onteigening a skos:Concept;
+    skos:definition "Instrument om het gebruik van gronden te regelen."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "ONTEIGENING";
+    skos:note "De noodzaak en proportionaliteit van de onteigening moeten goed gemotiveerd worden, inclusief bewijs dat alternatieven niet haalbaar zijn."@nl, "Instrument om het gebruik van gronden te regelen."@nl;
+    skos:prefLabel "Onteigening"@nl;
+    skos:scopeNote "De noodzaak en proportionaliteit van de onteigening moeten goed gemotiveerd worden, inclusief bewijs dat alternatieven niet haalbaar zijn."@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:overeenkomst a skos:Concept;
+    skos:definition "Een overeenkomst wordt gemaakt met minstens één andere partij en wordt ten laatste in de fase voorlopige vaststelling opgenomen en mee ter inzage gelegd tijdens het openbaar onderzoek."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "OVEREENKOMST";
+    skos:note "Een overeenkomst wordt gemaakt met minstens één andere partij en wordt ten laatste in de fase voorlopige vaststelling opgenomen en mee ter inzage gelegd tijdens het openbaar onderzoek."@nl;
+    skos:prefLabel "Overeenkomst"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:passende-beoordeling a skos:Concept;
+    skos:definition "Een ecologisch onderzoeksrapport dat nagaat of een gepland project negatieve gevolgen heeft voor de natuurlijke kenmerken en instandhoudingsdoelstellingen van een Europees beschermd Natura 2000-gebied."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "PASSENDE_BEOORDELING";
+    skos:note "Een ecologisch onderzoeksrapport dat nagaat of een gepland project negatieve gevolgen heeft voor de natuurlijke kenmerken en instandhoudingsdoelstellingen van een Europees beschermd Natura 2000-gebied."@nl;
+    skos:prefLabel "Passende beoordeling"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:planbaten a skos:Concept;
+    skos:definition "Een waardestijging (meerwaarde) van een perceel grond die ontstaat doordat de overheid de bestemming van dat perceel wijzigt."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "PLANBATEN";
+    skos:note "Een waardestijging (meerwaarde) van een perceel grond die ontstaat doordat de overheid de bestemming van dat perceel wijzigt."@nl;
+    skos:prefLabel "Planbaten"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:planschade a skos:Concept;
+    skos:definition "De financiële schade of waardevermindering die een eigenaar lijdt doordat de overheid een bestemmingsplan of ruimtelijk plan wijzigt."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "PLANSCHADE";
+    skos:note "De financiële schade of waardevermindering die een eigenaar lijdt doordat de overheid een bestemmingsplan of ruimtelijk plan wijzigt."@nl;
+    skos:prefLabel "Planschade"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:recht-van-voorkoop a skos:Concept;
+    skos:definition "TODO: definitie van recht van voorkoop."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "RECHT_VAN_VOORKOOP";
+    skos:note "Belang kennisgeving eigenaars uiterlijk op de dag van inwerkingtreding van het RUP."@nl, "TODO: definitie van recht van voorkoop."@nl;
+    skos:prefLabel "Recht van voorkoop"@nl;
+    skos:scopeNote "Belang kennisgeving eigenaars uiterlijk op de dag van inwerkingtreding van het RUP."@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:ruimtelijk-veiligheidsrapport a skos:Concept;
+    skos:altLabel "RVR"@nl;
+    skos:definition "Een ruimtelijk veiligheidsrapport is vereist."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "RUIMTELIJK_VEILIGHEIDSRAPPORT";
+    skos:note "Een ruimtelijk veiligheidsrapport is vereist."@nl;
+    skos:prefLabel "Ruimtelijk veiligheidsrapport"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:vereist-planologische-compensatie a skos:Concept;
+    skos:altLabel "Vereist planologische compensatie"@nl;
+    skos:definition "Deze procedure genereert een negatieve balans."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "VEREIST_PLANOLOGISCHE_COMPENSATIE";
+    skos:note "Deze procedure genereert een negatieve balans."@nl;
+    skos:prefLabel "Het plan vereist compensatie"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:verordening a skos:Concept;
+    skos:definition "Een verordening bevat aanvullende, meer gedetailleerde of thematische regels."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "VERORDENING";
+    skos:note "Een verordening bevat aanvullende, meer gedetailleerde of thematische regels."@nl, "Verordeningen kunnen specifieke bepalingen bevatten zoals toegankelijkheid, milieubescherming, maximaal toegelaten activiteiten en functies. Komt niet veel voor bij gewestelijke RUP's."@nl;
+    skos:prefLabel "Verordening"@nl;
+    skos:scopeNote "Verordeningen kunnen specifieke bepalingen bevatten zoals toegankelijkheid, milieubescherming, maximaal toegelaten activiteiten en functies. Komt niet veel voor bij gewestelijke RUP's."@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
+procedurekenmerken:verscherpte-natuurtoets a skos:Concept;
+    skos:altLabel "VEN-toets"@nl;
+    skos:definition "Een verplichte beoordeling die onderzoekt of een vergunningsplichtige activiteit onvermijdbare en onherstelbare schade kan veroorzaken aan de natuurlijke kenmerken van een gebied binnen het Vlaams Ecologisch Netwerk."@nl;
+    skos:inScheme conceptscheme_ruimtelijkeplannen:procedurekenmerken;
+    skos:notation "VERSCHERPTE_NATUURTOETS";
+    skos:note "Een verplichte beoordeling die onderzoekt of een vergunningsplichtige activiteit onvermijdbare en onherstelbare schade kan veroorzaken aan de natuurlijke kenmerken van een gebied binnen het Vlaams Ecologisch Netwerk."@nl;
+    skos:prefLabel "Verscherpte natuurtoets"@nl;
+    skos:topConceptOf conceptscheme_ruimtelijkeplannen:procedurekenmerken.
 concept:voorbeeld a skos:Concept;
     skos:definition "TODO: voorbeeldconcept; vervang door de eigenlijke concepten."@nl;
     skos:inScheme conceptscheme:ruimtelijkeplannen;
@@ -84,6 +169,12 @@ concept:voorbeeld a skos:Concept;
     skos:note "TODO: voorbeeldconcept; vervang door de eigenlijke concepten."@nl;
     skos:prefLabel "voorbeeldconcept"@nl;
     skos:topConceptOf conceptscheme:ruimtelijkeplannen.
+conceptscheme_ruimtelijkeplannen:procedurekenmerken a skos:ConceptScheme;
+    skos:definition "Kenmerken van de procedure van een ruimtelijk plan."@nl;
+    skos:hasTopConcept procedurekenmerken:bevat-planologische-compensatie, procedurekenmerken:delegatie, procedurekenmerken:gebruikersschade, procedurekenmerken:grensoverschrijdende-effecten, procedurekenmerken:herneming, procedurekenmerken:kapitaalschade, procedurekenmerken:onteigening, procedurekenmerken:overeenkomst, procedurekenmerken:passende-beoordeling, procedurekenmerken:planbaten, procedurekenmerken:planschade, procedurekenmerken:recht-van-voorkoop, procedurekenmerken:ruimtelijk-veiligheidsrapport, procedurekenmerken:vereist-planologische-compensatie, procedurekenmerken:verordening, procedurekenmerken:verscherpte-natuurtoets;
+    skos:note "Kenmerken van de procedure van een ruimtelijk plan."@nl, "Voorheen benoemd als voorkomende gevallen."@nl;
+    skos:prefLabel "procedurekenmerken"@nl;
+    skos:scopeNote "Voorheen benoemd als voorkomende gevallen."@nl.
 conceptscheme:ruimtelijkeplannen a skos:ConceptScheme;
     skos:definition "TODO: definitie van het conceptschema ruimtelijkeplannen."@nl;
     skos:hasTopConcept concept:voorbeeld;
