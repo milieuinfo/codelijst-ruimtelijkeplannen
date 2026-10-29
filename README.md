@@ -48,7 +48,7 @@ Nog te doen:
 ### Voer het transformatiescript uit:
 ```
 cd $PROJECT_HOME
-npm run create_skos
+pnpm run create_skos
 ```
 
 ### Run een maven build (testen worden uitgevoerd en metadata aangemaakt)
@@ -61,8 +61,8 @@ mvn clean install
 
 **_nodejs_**
 
-### Installeer libraries in package.json
+### Installeer libraries in package.json (met pnpm, versie vastgelegd in `packageManager`)
 ```
 cd $PROJECT_HOME
-npm install
+pnpm install
 ```
