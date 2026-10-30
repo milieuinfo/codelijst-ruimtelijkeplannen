@@ -15,7 +15,6 @@ skos:
   csv: .csv
   rdf_xml: .rdf
   json: .json
-  xlsx: .xlsx
   nt: .nt
   parquet: .parquet
 
@@ -95,12 +94,6 @@ metadata :
       description: "Codelijsten in verband met ruimtelijkeplannen, geserialiseerd als parquet bestand."
       mediaType: https://www.iana.org/assignments/media-types/application/vnd.apache.parquet
       format: http://publications.europa.eu/resource/authority/file-type/PARQUET
-      type: http://www.w3.org/ns/dcat#Distribution
-    xlsx:
-      title: "Codelijsten in verband met ruimtelijkeplannen, geserialiseerd als excel-formaat."
-      description: "Codelijsten in verband met ruimtelijkeplannen, geserialiseerd als excel bestand."
-      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-      format: http://publications.europa.eu/resource/authority/file-type/XLSX
       type: http://www.w3.org/ns/dcat#Distribution
     csv:
       title: "Codelijsten in verband met ruimtelijkeplannen, geserialiseerd als csv-formaat."

@@ -33,7 +33,7 @@ Nog te doen:
 | `src/source/config.yml` | configuratie: bron-CSV's, namespaces, prefixen, DCAT-metadata van dataset en distributies |
 | `src/source/context.json` | JSON-LD context die de CSV-kolommen op RDF-termen afbeeldt |
 | `src/main/resources/be/vlaanderen/omgeving/data/id/ontology/ruimtelijkeplannen-ap-constraints/` | SHACL-shapes waartegen de codelijsten gevalideerd worden |
-| `src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/ruimtelijkeplannen/` | gegenereerde codelijsten, alle conceptschema's samen (ttl, nt, jsonld, json, csv, parquet, xlsx) |
+| `src/main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/ruimtelijkeplannen/` | gegenereerde codelijsten, alle conceptschema's samen (ttl, nt, jsonld, json, csv, parquet) |
 
 ## Gebruik
 
